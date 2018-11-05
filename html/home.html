@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;	
+		}
+		body{
+			font-size: 12px;
+		    font-family: "黑体";
+		    background: #efefef;
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+		}
+		.box{
+			width: 100%;
+			height:1000px; 
+			position: relative;
+		}
+		.carousel{
+			margin-top: 60px;
+		}
+		.cir li{
+			background: #666;
+			border:0px;
+		}
+		.title{
+			margin-top: 7px;
+			width: 100%;
+			height: 50px;
+		}
+		.title strong{
+			float: left;
+		    width: 50%;
+		    height: 50px;
+		    text-indent: 10px;
+		    line-height: 50px;
+		    font-size: 16px;
+		    font-weight: bold;
+		}
+		.title span{
+			float: left;
+		    width: 47.5%;
+		    font-size: 14px;
+		    font-weight: bold;
+		    text-align: right;
+		    line-height: 50px;
+		}
+		.item{
+			width: 100%;
+			background: #fff;
+			flex-wrap: wrap;
+			display: flex;
+		    justify-content: space-around;
+		}
+		.item li{
+			width: 124px;
+			height: 217px;
+			margin-top: 3.5%;
+			list-style: none;
+		}
+		.item li img{
+			width: 100%;
+			height: 166px;
+		}
+		.item li b a{
+			color: #000;
+		}
+		.item li p{
+			color: #999;
+			height: 29px;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		.item li b a{
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		.bot{
+			margin-bottom: 70px;
+			text-align: center;
+			line-height: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators cir">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="img/轮播1.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播2.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播3.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播4.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播5.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播6.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播7.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		    <div class="item">
+		     <img src="img/轮播8.jpeg" alt="...">
+		      <div class="carousel-caption"></div>
+		    </div>
+		  </div>
+		</div>
+		<div class="title">
+			<strong>o(*￣3￣)o 精品推荐</strong>
+			<span><a href="">⊙ 换一批</a></span>
+		</div>
+		<ul class="item">
+			<li>
+				<a href="">
+					<img src="img/xs1.jpeg">
+				</a>
+				<b><a href="">完美世界</a></b>
+				<p>第91话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs2.jpeg">
+				</a>
+				<b><a href="">仙道魔侠</a></b>
+				<p>第103话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs3.jpeg">
+				</a>
+				<b><a href="">互撸大漫画</a></b>
+				<p>出轨</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs4.jpeg">
+				</a>
+				<b><a href="">谜之魔盒</a></b>
+				<p>第100话回忆音符乐章</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs5.jpeg">
+				</a>
+				<b><a href="">逆转木兰辞</a></b>
+				<p>第28话 反击</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs6.jpeg">
+				</a>
+				<b><a href="">Bloody Girl</a></b>
+				<p>第104回</p>
+			</li>
+		</ul>
+		<div class="title">
+			<strong>(￣︶￣)↗ 少年漫画</strong>
+			<span><a href="">⊙ 换一批</a></span>
+		</div>
+		<ul class="item">
+			<li>
+				<a href="">
+					<img src="img/xs7.jpeg">
+				</a>
+				<b><a href="">地府我开的</a></b>
+				<p>182.反击的前夕</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs8.jpeg">
+				</a>
+				<b><a href="">龙隐</a></b>
+				<p>38：捕猎</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs9.jpeg">
+				</a>
+				<b><a href="">精灵之门</a></b>
+				<p>第31话 神奇的占卜术 下</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs10.jpeg">
+				</a>
+				<b><a href="">苍炎燃月</a></b>
+				<p>番外篇</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs11.jpeg">
+				</a>
+				<b><a href="">双重人生</a></b>
+				<p>第41话 最终话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs12.jpeg">
+				</a>
+				<b><a href="">超能领域</a></b>
+				<p>番外篇——炫彩</p>
+			</li>
+		</ul>
+		<div class="title">
+			<strong>o(*￣▽￣*)o 少女漫画</strong>
+			<span><a href="">⊙ 换一批</a></span>
+		</div>
+		<ul class="item">
+			<li>
+				<a href="">
+					<img src="img/fed.jpg">
+				</a>
+				<b><a href="">都市喵奇谭</a></b>
+				<p>番外</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs14.jpeg">
+				</a>
+				<b><a href="">治愈我的王子药</a></b>
+				<p>第30话 我们终究是云泥之别</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs15.jpeg">
+				</a>
+				<b><a href="">燕山派与百花门</a></b>
+				<p>第250话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs16.jpeg">
+				</a>
+				<b><a href="">猫奴富少好缠人</a></b>
+				<p>第50话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs17.jpeg">
+				</a>
+				<b><a href="">全球缉爱</a></b>
+				<p>39话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs18.jpeg">
+				</a>
+				<b><a href="">倾国妖宠</a></b>
+				<p>第37话 暗杀者（下）</p>
+			</li>
+		</ul>
+		<div class="title">
+			<strong>(◕ܫ◕)今日我更新</strong>
+			<span><a href="">⊙ 换一批</a></span>
+		</div>
+		<ul class="item">
+			<li>
+				<a href="">
+					<img src="img/xs19.jpeg">
+				</a>
+				<b><a href="">高调撩妻Boss大人求节制</a></b>
+				<p>1话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs20.jpeg">
+				</a>
+				<b><a href="">武林之王的退隐生活</a></b>
+				<p>第29话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs21.jpeg">
+				</a>
+				<b><a href="">镖人</a></b>
+				<p>第84话 关隘</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs22.jpeg">
+				</a>
+				<b><a href="">毕业者少年</a></b>
+				<p>31话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs23.jpeg">
+				</a>
+				<b><a href="">人气同桌是只猫</a></b>
+				<p>23话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs24.jpeg">
+				</a>
+				<b><a href="">国民男神缠上身</a></b>
+				<p>44话</p>
+			</li>
+		</ul>
+		<div class="title">
+			<strong>(◕ܫ◕)今日我更新</strong>
+			<span><a href="">⊙ 换一批</a></span>
+		</div>
+		<ul class="item">
+			<li>
+				<a href="">
+					<img src="img/xs25.jpeg">
+				</a>
+				<b><a href="">妖神记</a></b>
+				<p>第196话 赤炎黑虎再现（下）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs26.jpeg">
+				</a>
+				<b><a href="">驭灵师</a></b>
+				<p>第15话 寻龙6</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/xs27.jpeg">
+				</a>
+				<b><a href="">纯情花嫁</a></b>
+				<p>第396话</p>
+			</li>
+		</ul>
+		<div class="title bot">
+			<p>蜀ICP证：14016877号  文网文：<a href="">川网文（2017）9040-394号</a></p>
+		</div>
+	</div>
+</body>
+</html>

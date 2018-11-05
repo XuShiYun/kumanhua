@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.sort{
+			width: 100%;
+			background: #fff;
+			border-top: 1px solid #eee;
+			margin-top: 60px;
+		}
+		.quanbu{
+			display: flex;
+			justify-content: space-around;
+			margin-bottom: 0;
+		}
+		.quanbu li{
+			width: 52px;
+			height: 36px;
+			float: left;
+			line-height: 36px;
+			list-style: none;
+			font-size: 10px;
+			color: #666;
+		}
+		.quanbu .qb{
+			width: 46px;
+			height: 24px;
+			color: red;
+			font-size: 16px;
+			border: 1px solid #eee;
+			border-radius: 10px;
+			text-align: center;
+			line-height: 22px;
+			margin-left: 2.5%;
+			margin-right: 20px;
+			margin-top: 5px;
+		}
+		.qb2{
+			width: 100%;
+			height: 36px;
+			background: #fff;
+		}
+		.qb2 li{
+			width: 52px;
+			height: 36px;
+			float: left;
+			font-size: 16px;
+			background: #fff;
+			list-style: none;
+			line-height: 36px;
+		}
+		.qb2 li.qb{
+			width: 46px;
+			height: 24px;
+			color: red;
+			font-size: 16px;
+			border: 1px solid #eee;
+			border-radius: 10px;
+			text-align: center;
+			line-height: 22px;
+			margin-left: 2.5%;
+			margin-right: 20px;
+			margin-top: 5px;
+		}
+		.imgBox{
+			width: 100%;
+			background: #fff;
+			flex-wrap: wrap;
+			display: flex;
+		    justify-content: space-around;
+		}
+		.imgBox li{
+			width: 124px;
+			height: 217px;
+			list-style: none;
+		}
+		.imgBox li img{
+			width: 100%;
+			height: 166px;
+		}
+		.imgBox li b a{
+			color: #000;
+		}
+		.imgBox li p{
+			color: #999;
+			height: 29px;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		.imgBox li b a{
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="sort">
+		<ul class="quanbu">
+			<li class="qb">全部</li>
+			<li>玄幻</li>
+			<li>都市</li>
+			<li>恐怖</li>
+			<li>校园</li>
+			<li>悬疑</li>
+			<li>科幻</li>
+			<li>生活</li>
+		</ul>
+		<ul class="qb2">
+			<li class="qb">全部</li>
+			<li>连载</li>
+			<li>完结</li>
+		</ul>
+		<ul class="imgBox">
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/56/10005bd65f9b9fe16.jpeg">
+				</a>
+				<b><a href="">无色</a></b>
+				<p>004爱情与友情</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/03/10005af2b704a12da.jpeg">
+				</a>
+				<b><a href="">纯情花嫁</a></b>
+				<p>第398话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/44/10005b0f5e08a574d.jpeg">
+				</a>
+				<b><a href="">枕上娇妻之交易婚约</a></b>
+				<p>45，同学会</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/06/1000584928ef9c519.jpeg">
+				</a>
+				<b><a href="">国魂</a></b>
+				<p>第38话 沉潮（3）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/07/100058526a84bcda0.jpg">
+				</a>
+				<b><a href="">穿越效应</a></b>
+				<p>第14话 毁灭与重生（4）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/51/10005b6a547b1c8c1.jpeg">
+				</a>
+				<b><a href="">我的徒弟是只猪</a></b>
+				<p>第47话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/54/10005b91e6a99cf71.jpeg">
+				</a>
+				<b><a href="">我靠游戏追男神</a></b>
+				<p>16话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/25/1000595f3cfa2ddb3.jpeg">
+				</a>
+				<b><a href="">魔星双龙传</a></b>
+				<p>第31话 （上） 关于莉莉粥的一切</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/35/10005a02999a7b9fb.jpeg">
+				</a>
+				<b><a href="">隐山梦谈</a></b>
+				<p>第58话 突然来访的“神秘人”（一）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/09/100058730554e2ad6.jpg">
+				</a>
+				<b><a href="">囧学堂</a></b>
+				<p>第413章 谁来害我</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/12/100058ac0afdcaff3.jpeg">
+				</a>
+				<b><a href="">无常鬼</a></b>
+				<p>第27话C</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/45/10005b1e4c6eb090a.jpeg">
+				</a>
+				<b><a href="">虚实江湖侠影录</a></b>
+				<p>第20话（1）身份暴露</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/54/10005b750df4c5687.jpeg">
+				</a>
+				<b><a href="">最强NPC</a></b>
+				<p>第三十九章-了断</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/55/10005bab55c7f17de.jpeg">
+				</a>
+				<b><a href="">超能狂神</a></b>
+				<p>第十六话 飞机事故？</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/27/1000599fd42265c44.jpeg">
+				</a>
+				<b><a href="">竞技场之王</a></b>
+				<p>第435话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/55/10005bb2107b785a4.jpeg">
+				</a>
+				<b><a href="">妖鬼集</a></b>
+				<p>第二章 窗边的小狐狸（4）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/34/10005a795fa3e07b6.jpeg">
+				</a>
+				<b><a href="">地狱鬼妻</a></b>
+				<p>第五十章：护天门</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/46/10005b704cc2c712d.jpeg">
+				</a>
+				<b><a href="">柏岩子的设计日常</a></b>
+				<p>鸟类学家</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/55/10005ba4bf587feb1.jpeg">
+				</a>
+				<b><a href="">侠盗神医</a></b>
+				<p>第十七章-“狗男女”</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/56/10005bd14b1b486b4.jpeg">
+				</a>
+				<b><a href="">百诡谈</a></b>
+				<p>爱之名 第二话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/55/10005bbc92c520b06.jpeg">
+				</a>
+				<b><a href="">电商高手</a></b>
+				<p>电商高手</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/56/10005bd2c7c455868.jpeg">
+				</a>
+				<b><a href="">退休的勇者们（彩色版）</a></b>
+				<p>第8话A</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/56/10005bd430614f186.jpeg">
+				</a>
+				<b><a href="">kiss The Gunpoint</a></b>
+				<p>第一章02</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/35/10005a02999a7b9fb.jpeg">
+				</a>
+				<b><a href="">隐山梦谈</a></b>
+				<p>第58话 突然来访的“神秘人”（一）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/35/10005a02999a7b9fb.jpeg">
+				</a>
+				<b><a href="">隐山梦谈</a></b>
+				<p>第58话 突然来访的“神秘人”（一）</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/46/10005b2ca03ece6a9.jpeg">
+				</a>
+				<b><a href="">我的绝色总裁未婚妻</a></b>
+				<p>87话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/53/10005b729f8ac31c8.jpeg">
+				</a>
+				<b><a href="">每天都能看见我妹妹在抽风</a></b>
+				<p>第40话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/54/10005b90cebcb30df.png">
+				</a>
+				<b><a href="">不做你的妃</a></b>
+				<p>第17话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/45/10005b15edc2c5290.jpeg">
+				</a>
+				<b><a href="">千金的转身</a></b>
+				<p>59话</p>
+			</li>
+			<li>
+				<a href="">
+					<img src="http://cover.static.kuman.com/000/01/00/46/10005b2ca6c991e5b.jpeg">
+				</a>
+				<b><a href="">你个神棍快走开</a></b>
+				<p>48话</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
